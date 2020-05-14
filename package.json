@@ -1,0 +1,17 @@
+{
+    "name": "webhook-channel-poster",
+    "version": "0.0.1",
+    "author": "Junior <fallen@discorddungeons.me>",
+    "scripts": {
+        "lint": "eslint .",
+        "start": "node post.js"
+    },
+    "dependencies": {
+        "discord.js": "12.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2"
+    }
+}

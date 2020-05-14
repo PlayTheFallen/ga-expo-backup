@@ -1,0 +1,67 @@
+{
+    "webhook": {
+        "id": "",
+        "token": ""
+    },
+    "defaultPayload": {
+        "username": "",
+        "avatarURL": "",
+        "tts": false,
+        "nonce": "",
+        "embeds": [{
+            "author": {
+                "name": "Clyde#0000",
+                "url": "",
+                "iconURL": "",
+                "proxyIconURL": ""
+            },
+            "color": 16777215,
+            "description": "",
+            "fields": [
+                {"name": "", "value": "", "inline": false}
+            ],
+            "footer": {
+                "text": "",
+                "iconURL": ""
+            },
+            "image": {
+                "url": "",
+                "height": 300,
+                "width": 400
+            },
+            "provider": {
+                "name": "",
+                "url": ""
+            },
+            "thumbnail": {
+                "url": "",
+                "height": 300,
+                "width": 400
+            },
+            "timestamp": "2020-04-14T23:06:42.556Z"
+        }],
+        "allowedMentions": {
+            "parse": ["roles", "users", "everyone"],
+            "users": ["type:snowflake"],
+            "roles": ["type:snowflake"]
+        },
+        "disableMentionType": "none",
+        "files": [
+            { "attachment": "type:Buffer", "name": "fake.file" },
+            { "attachment": "./path/to/local/file.fake", "name": "fake.file" },
+            { "attachment": "https://example.com/path/to/file.fake", "name": "fake.file"},
+            "./path/to/local/file.fake"
+        ],
+        "code": "language",
+        "split": {
+            "_or": "type:boolean",
+            "maxLength": 2000,
+            "char": "\n",
+            "prepend": "",
+            "append": ""
+        }
+    },
+    "files": [
+        "./path/to/local/file.fake"
+    ]
+}
