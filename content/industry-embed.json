@@ -1,0 +1,20 @@
+{
+	"embeds": [
+		{
+			"title": "Industry",
+			"color": 30935,
+			"fields": [
+				{
+					"name": "Aardvark Swift",
+					"value": "<#703961781701443624>"
+				}
+			]
+		},
+		{
+			"title": "Masters",
+			"description": "...",
+			"color": 2602129,
+			"fields": []
+		}
+	]
+}

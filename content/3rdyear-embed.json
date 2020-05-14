@@ -1,0 +1,85 @@
+{
+	"embeds": [
+		{
+			"title": "3rd Year (15 Teams)",
+			"color": 30935,
+			"fields": [
+				{
+					"name": "Team 1",
+					"value": "Searching\n<#710446406585942046>",
+					"inline": true
+				},
+				{
+					"name": "Team 2",
+					"value": "Rustbreaker\n<#710446530997518378>",
+					"inline": true
+				},
+				{
+					"name": "Team 3",
+					"value": "NULL\n<#710446612903755782>",
+					"inline": true
+				},
+				{
+					"name": "Team 4",
+					"value": "Planetary Pest Control\n<#710446689751924817>",
+					"inline": true
+				},
+				{
+					"name": "Team 5",
+					"value": "The Last Nomads\n<#710446779446984705>",
+					"inline": true
+				},
+				{
+					"name": "Team 6",
+					"value": "Knights of Trash\n<#710446861567393803>",
+					"inline": true
+				},
+				{
+					"name": "Team 7",
+					"value": "Puddel\n<#710446963425935430>",
+					"inline": true
+				},
+				{
+					"name": "Team 8",
+					"value": "Champions Of Archon\n<#710447041188462684>",
+					"inline": true
+				},
+				{
+					"name": "Team 9",
+					"value": "Zero Gravity\n<#710447110222250004>",
+					"inline": true
+				},
+				{
+					"name": "Team 10",
+					"value": "House Hunting\n<#710447183333425192>",
+					"inline": true
+				},
+				{
+					"name": "Team 11",
+					"value": "Boxed In\n<#710447261473177611>",
+					"inline": true
+				},
+				{
+					"name": "Team 12",
+					"value": "Archie The Archer\n<#710447332021239868>",
+					"inline": true
+				},
+				{
+					"name": "Team 13",
+					"value": "Nexus\n<#710447405472153610>",
+					"inline": true
+				},
+				{
+					"name": "Team 14",
+					"value": "Rumble Raiders\n<#710447573013364767>",
+					"inline": true
+				},
+				{
+					"name": "Team 15",
+					"value": "NULL\n<#710447682531098704>",
+					"inline": true
+				}
+			]
+		}
+	]
+}

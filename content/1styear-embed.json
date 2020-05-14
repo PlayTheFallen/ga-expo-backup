@@ -1,0 +1,85 @@
+{
+	"embeds": [
+		{
+			"title": "1st Year (15 Teams)",
+			"color": 1492492,
+			"fields": [
+				{
+					"name": "Team 1",
+					"value": "Bone Rush\n<#694614274433089536>",
+					"inline": true
+				},
+				{
+					"name": "Team 2",
+					"value": "Kitten Conquest\n<#710446002498437203>",
+					"inline": true
+				},
+				{
+					"name": "Team 3",
+					"value": "Groceries\n<#710446069619622009>",
+					"inline": true
+				},
+				{
+					"name": "Team 4",
+					"value": "Lumin\n<#710446113970192464>",
+					"inline": true
+				},
+				{
+					"name": "Team 5",
+					"value": "Right To Bear Arms\n<#710446170425786460>",
+					"inline": true
+				},
+				{
+					"name": "Team 6",
+					"value": "Yvaga Station\n<#710446239572951090>",
+					"inline": true
+				},
+				{
+					"name": "Team 7",
+					"value": "A Wizards Path\n<#710446292559593553>",
+					"inline": true
+				},
+				{
+					"name": "Team 8",
+					"value": "Fuchou\n<#710446338625765468>",
+					"inline": true
+				},
+				{
+					"name": "Team 9",
+					"value": "Reality Tower\n<#710446372607885332>",
+					"inline": true
+				},
+				{
+					"name": "Team 10",
+					"value": "Sharp Tongue\n<#710446405545885726>",
+					"inline": true
+				},
+				{
+					"name": "Team 11",
+					"value": "Gun Plugged\n<#710446445500694569>",
+					"inline": true
+				},
+				{
+					"name": "Team 12",
+					"value": "TRCSVR\n<#710446490782531675>",
+					"inline": true
+				},
+				{
+					"name": "Team 13",
+					"value": "Cyberdeck\n<#710446533551587338>",
+					"inline": true
+				},
+				{
+					"name": "Team 14",
+					"value": "Next Day Delivery\n<#710446570147020810>",
+					"inline": true
+				},
+				{
+					"name": "Team 15",
+					"value": "Buckle Up\n<#710446610781438022>",
+					"inline": true
+				}
+			]
+		}
+	]
+}
