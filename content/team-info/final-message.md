@@ -1,0 +1,2 @@
+*Unwarranted use of permissions granted to you may result in restrictions being placed on your account or your team.*
+*Further cause for disruption will call for a kick or ban and therefore removing you and anyone involved from the expo community.*

@@ -4,12 +4,14 @@ const path = require('path');
 
 const {
 	WebhookClient,
-	Util: { mergeDefault },
+	Util: { mergeDefault, resolveColor },
 } = require('discord.js');
 
 const config = require('./config.json');
 
-const webhook = new WebhookClient(config.webhook.id, config.webhook.token);
+const webhook = new WebhookClient(config.webhook.id, config.webhook.token, {
+	disableMentions: 'none',
+});
 
 /**
  *
@@ -18,7 +20,7 @@ const webhook = new WebhookClient(config.webhook.id, config.webhook.token);
  */
 const sleep = (time = 1000) => new Promise((resolve) => setTimeout(() => resolve()), time);
 
-const sendPayload = async (payload) => webhook.send(mergeDefault(config.defaultPayload, payload));
+const sendPayload = (payload) => webhook.send(mergeDefault(config.defaultPayload, payload));
 
 /**
  *
@@ -70,15 +72,17 @@ const run = async () => {
 		await sleep(2000);
 	}
 	const stamp = new Date();
-	if (config.updatedEmbed) {
+	if (config.updatedEmbed !== null) {
 		await sendPayload(mergeDefault({
 			embeds: [
 				{
-					description: `This channel was last updated ${stamp.toUTCString()} (${stamp.toISOString()})`,
-					color: 15088455,
+					description: 'This channel has been backed up using [TinkerStorm/discord-channel-backup](https://github.com/TinkerStorm/discord-channel-backup).',
+					color: resolveColor('#7289DA'),
+					timestamp: stamp,
 				},
 			],
 		}, config.updatedEmbed));
+		console.log('[*] Sent content for update embed.');
 	}
 };
 
