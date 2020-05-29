@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-const { promises: fs } = require('fs');
+const fs = require('fs/promises');
 const path = require('path');
 
 const {
