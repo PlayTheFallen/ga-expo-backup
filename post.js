@@ -72,7 +72,7 @@ const run = async () => {
 		await sleep(2000);
 	}
 	const stamp = new Date();
-	if (config.updatedEmbed !== null) {
+	if (config.updatePayload && config.updatePayload.length > 0) {
 		await sendPayload(mergeDefault({
 			embeds: [
 				{
