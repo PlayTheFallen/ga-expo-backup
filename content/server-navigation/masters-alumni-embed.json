@@ -2,11 +2,11 @@
 	"embeds": [
 		{
 			"title": "Masters / Alumni",
-			"color": 2602129,
+			"color": 16777214,
 			"fields": [
 				{
 					"name": "Studio Mutiny",
-					"value": "#sai-chat"
+					"value": "<#715851419319795793>"
 				}
 			]
 		}
