@@ -16,3 +16,5 @@
 > *Unicode emojis can be used for any of the names, but text channel names will default be forced to have no spaces and all lowercase (custom emojis aren't allowed either).*
 > If you want to use emojis, please consider reading up on what Discord already provides.
 > <https://emojipedia.org/discord/>
+
+🏹 Remove or pin messages.
