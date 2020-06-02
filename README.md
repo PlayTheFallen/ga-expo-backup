@@ -29,6 +29,8 @@ Rights to the files `config.example.json` and `post.js` are licensed to public d
 
 ### #rules-and-info
 
+*This sequence is not used.*
+
 - `./content/rules-and-info/expo-rules.md`
 
 ### #server-naviagtion
