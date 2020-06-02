@@ -10,18 +10,8 @@
 					"inline": true
 				},
 				{
-					"name": "Team 2",
-					"value": "Runaway\n<#710446774925525002>",
-					"inline": true
-				},
-				{
 					"name": "Team 3",
 					"value": "Trolmoyer\n<#710446804713603133>",
-					"inline": true
-				},
-				{
-					"name": "Team 4",
-					"value": "NULL\n<#710446927522562148>",
 					"inline": true
 				},
 				{
@@ -30,44 +20,8 @@
 					"inline": true
 				},
 				{
-					"name": "Team 6",
-					"value": "Emotional State\n<#710447007625379860>",
-					"inline": true
-				},
-				{
 					"name": "Team 7",
 					"value": "Conveyor\n<#710447049669214248>",
-					"inline": true
-				},
-				{
-					"name": "Team 8",
-					"value": "Atone\n<#710447087283863593>",
-					"inline": true
-				},
-				{
-					"name": "\u200b",
-					"value": "\u200b",
-					"inline": true
-				}
-			]
-		},
-		{
-			"title": "2nd Year (Teams 9 to 16)",
-			"color": 8940772,
-			"fields": [
-				{
-					"name": "Team 9",
-					"value": "Undead Frenzy VR\n<#710447123157483540>",
-					"inline": true
-				},
-				{
-					"name": "Team 10",
-					"value": "Project Tung\n<#710447167646466079>",
-					"inline": true
-				},
-				{
-					"name": "Team 11",
-					"value": "Imagine That\n<#710447211690852433>",
 					"inline": true
 				},
 				{
@@ -78,26 +32,6 @@
 				{
 					"name": "Team 13",
 					"value": "Wizbang\n<#710447296138969099>",
-					"inline": true
-				},
-				{
-					"name": "Team 14",
-					"value": "Desolation\n<#710447334382632990>",
-					"inline": true
-				},
-				{
-					"name": "Team 15",
-					"value": "Buckle Up\n<#710447368633581618>",
-					"inline": true
-				},
-				{
-					"name": "Team 16",
-					"value": "NULL\n<#710447404918243339>",
-					"inline": true
-				},
-				{
-					"name": "\u200b",
-					"value": "\u200b",
 					"inline": true
 				}
 			]

@@ -6,7 +6,13 @@
 			"fields": [
 				{
 					"name": "Studio Mutiny",
-					"value": "Sai\n<#715851419319795793>"
+					"value": "Sai\n<#715851419319795793>",
+					"inline": true
+				},
+				{
+					"name": "Ninth Orbit",
+					"value": "Maestro\n<#717305542841729045>",
+					"inline": true
 				}
 			]
 		}
