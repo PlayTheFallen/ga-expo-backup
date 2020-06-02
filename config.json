@@ -1,0 +1,13 @@
+{
+	"webhook": {
+		"id": "",
+		"token": ""
+	},
+	"defaultPayload": {
+		"username": "Games Academy Expo"
+	},
+	"updatePayload": null,
+	"files": [
+		
+	]
+}
