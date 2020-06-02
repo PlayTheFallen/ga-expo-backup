@@ -47,3 +47,11 @@ Rights to the files `config.example.json` and `post.js` are licensed to public d
 Run manual data alteration to have `back-to-top.md` target the first message in the channel.
 
 - `./content/server-navigation/back-to-top.md`
+
+### #team-info
+
+Block channel from view of other users.
+
+- `./content/team-info/ask-moderator.md`
+- `./content/team-info/ask-admin.md`
+- `./content/team-info/final-message.md`
