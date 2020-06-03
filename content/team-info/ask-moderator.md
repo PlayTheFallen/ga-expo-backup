@@ -1,4 +1,4 @@
-🟦 You can ask a <@&702983919309422623> to...
+🟦 You can ask a Moderator to...
 
 👥 Add your team members to the role.
 > If we've failed to identify any of your team, this would be an alternative route for your peers to verify.
@@ -17,4 +17,4 @@
 > If you want to use emojis, please consider reading up on what Discord already provides.
 > <https://emojipedia.org/discord/>
 
-🏹 Remove or pin messages.
+💬 Request additional channels.
