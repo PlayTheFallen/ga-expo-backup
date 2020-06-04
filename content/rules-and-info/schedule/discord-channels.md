@@ -1,16 +1,16 @@
 > **Discord Channels**
-*Subject to change?*
+
 **Channel 1**
 ```md
-<Time         | Guest         >
-<------------ | -------------->
-<10am-to-11am | Imre Jele     >
-<11am-to-12pm | Aardvark Swift>
-<12pm-to-1pm  | David Clark   >
-<1pm-to-2pm   | Kate Goode    >
-<2pm-to-3pm   | Aardvark Swift>
-<3pm-to-4pm   | Bob Cheshire  >
-<4pm-to-5pm   | Alumni Panel  >
+<Time         | Guest                    >
+<------------ | ------------------------->
+<10am-to-11am | Imre Jele                >
+<11am-to-12pm | Jeff Tanton and Tork Shaw>
+<12pm-to-1pm  | Alumni Panel             >
+<1pm-to-2pm   | Katie Goode               >
+<2pm-to-3pm   | Oliver Hindle            >
+<3pm-to-4pm   | Bob Cheshire             >
+<4pm-to-5pm   | Alumni Panel             >
 ```
 **Channel 2**
 ```md
@@ -27,8 +27,8 @@
 
 **Aardvark Swift Channels**
 ```md
-<Time         | Guest                     >
-<------------ | -------------------------->
-<11am-to-12pm | Industry Leading Recruiter>
-<2pm-to-3pm   | Industry Leading Recruiter>
+<Time        >
+<------------>
+<11am-to-12pm>
+<2pm-to-3pm  >
 ```

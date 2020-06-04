@@ -1,5 +1,5 @@
 > **Schedule**
-*Subject to change?*
+
 ```md
 <09:50–10:00 | Intro>
 <10:00–10:30 | 3rd Year game: Planetary Pest Control with Andy Smith>
