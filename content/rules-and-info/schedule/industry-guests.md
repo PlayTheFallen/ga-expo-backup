@@ -17,6 +17,9 @@ CUBA_Entertainment (){
 Film_Concept_Artist() {
   "Bob Cheshire" }
 
+Google_Stadia() {
+  "Careen Yapp" }
+
 Indie_Champions() {
   "Colin Macdonald" }
 
@@ -29,6 +32,9 @@ MediaTonic() {
 
 Moonshine_Studios() {
   "Marcus Gardner" }
+
+Polygraph() {
+  "Johanne Bergill" }
 
 Triangular_Pixels() {
   "Katie Goode" }

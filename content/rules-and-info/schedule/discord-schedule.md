@@ -1,4 +1,4 @@
-> **Discord Channels**
+> **Discord Schedules**
 
 **Channel 1**
 ```md
@@ -24,7 +24,6 @@
 <3pm-to-4pm   | Colin Macdonald          >
 <4pm-to-5pm   | Haley Uyrus              >
 ```
-
 **Aardvark Swift Channels**
 ```md
 <Time        >

@@ -1,4 +1,4 @@
-> **MS Live Events Fireside Chats with Q&A:**
+> **Fireside Chats with Q&A:**
 ```md
 <Time         | Industry Guest  =       'Representing'>
 <------------ | --------------- = '------------------'>
