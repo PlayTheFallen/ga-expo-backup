@@ -4,5 +4,6 @@ If you find any errors or typos with any of the content you see in our informati
 Expo information channels (list):
 - <#703954640902946846>
 - <#703954814677155991>
+- <#703954860705316865>
 - <#710486608071360562> (Students+ only)
 - <#717463056975921192> (Students+ only)

@@ -1,5 +1,10 @@
 > **Industry Guests**
 ```bash
+Aardvark_Swift() {
+  "Andy Driver"
+  "Rebecca"
+  "Tom" }
+
 Bithell_Games() { 
   "Mike Bithell" }
 
@@ -12,19 +17,18 @@ CUBA_Entertainment (){
 Film_Concept_Artist() {
   "Bob Cheshire" }
 
-Grads_In_Games() {
-  "Tom"
-  "Rebecca" }
-
 Indie_Champions() {
   "Colin Macdonald" }
 
 MediaTonic() {
-  "Alex R"
+  "Alexander Raphelt"
   "Jeff Tanton"
   "Tork Shaw"
   "Oliver Hindle"
   "Haley Uyrus" }
+
+Moonshine_Studios() {
+  "Marcus Gardner" }
 
 Triangular_Pixels() {
   "Katie Goode" }
