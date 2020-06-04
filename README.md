@@ -38,7 +38,7 @@ Rights to the files `config.example.json` and `post.js` are licensed to public d
 	"./content/rules-and-info/useful-commands.md",
 	"./content/rules-and-info/schedule/industry-guests.md",
 	"./content/rules-and-info/schedule/fireside-chats.md",
-	"./content/rules-and-info/schedule/discord-schdule.md",
+	"./content/rules-and-info/schedule/discord-schedule.md",
 	"./content/rules-and-info/schedule/twitch-schedule.md",
 	"./content/rules-and-info/schedule/category-prizes.md",
 	"./content/rules-and-info/final-note.md"
