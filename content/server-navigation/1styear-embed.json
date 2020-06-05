@@ -1,7 +1,7 @@
 {
 	"embeds": [
 		{
-			"title": "1st Year (8 Teams)",
+			"title": "1st Year (7 Teams)",
 			"color": 1492492,
 			"fields": [
 				{
@@ -10,43 +10,33 @@
 					"inline": true
 				},
 				{
-					"name": "Team 2",
+					"name": "[1:2] Aventale Interactive",
 					"value": "[Kitten Conquest](https://discordapp.com/channels/694612386744631306/718122453867561040/718122652887154718)\n<#710446002498437203>",
 					"inline": true
 				},
 				{
-					"name": "Team 4",
-					"value": "Lumin\n<#710446113970192464>",
-					"inline": true
-				},
-				{
-					"name": "Team 5",
-					"value": "Right To Bear Arms\n<#710446170425786460>",
+					"name": "[1:4] 4Play",
+					"value": "[Lumin](https://discordapp.com/channels/694612386744631306/718404331501650000/718404655893315594)\n<#718404331501650000>\n<#718402593918812261>",
 					"inline": true
 				},
 				{
 					"name": "[1:6] Glass Nomad",
-					"value": "[Yvaga Station](https://discordapp.com/channels/694612386744631306/710446239572951090/717402134043295804)\n<#710446239572951090>",
+					"value": "[Yvaga Station](https://discordapp.com/channels/694612386744631306/710446239572951090/718182056957313034)\n<#710446239572951090>",
 					"inline": true
 				},
 				{
-					"name": "Team 8",
+					"name": "[1:8] Infinitum Studios",
 					"value": "[Fuchou](https://discordapp.com/channels/694612386744631306/710446338625765468/718116752218914826)\n<#710446338625765468>",
 					"inline": true
 				},
 				{
-					"name": "Team 9",
-					"value": "Reality Tower\n<#710446372607885332>",
+					"name": "[1:9] Darkroom Studios",
+					"value": "[Reality Tower](https://discordapp.com/channels/694612386744631306/710446372607885332/718221554428805143)\n<#710446372607885332>",
 					"inline": true
 				},
 				{
 					"name": "[1:14] The Cluck Collective",
 					"value": "[Next Day Delivery](https://discordapp.com/channels/694612386744631306/710446570147020810/717751870944444456)\n<#710446570147020810>",
-					"inline": true
-				},
-				{
-					"name": "\u200b",
-					"value": "\u200b",
 					"inline": true
 				}
 			]

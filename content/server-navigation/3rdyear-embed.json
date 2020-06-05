@@ -1,7 +1,7 @@
 {
 	"embeds": [
 		{
-			"title": "3rd Year (7 Teams)",
+			"title": "3rd Year (6 Teams)",
 			"color": 30935,
 			"fields": [
 				{
@@ -20,33 +20,18 @@
 					"inline": true
 				},
 				{
-					"name": "Team 5",
+					"name": "[3:5] Frog in a Jar Games",
 					"value": "[The Last Nomads](https://discordapp.com/channels/694612386744631306/710446779446984705/717359938678292532)\n<#710446779446984705>",
 					"inline": true
 				},
 				{
 					"name": "[3:6] Lazy Mage Games",
-					"value": "[Knights of Trash](https://discordapp.com/channels/694612386744631306/717759851111120986/717790021838700604)\n<#717759851111120986>\n<#710446861567393803>",
+					"value": "[Knights of Trash](https://discordapp.com/channels/694612386744631306/717759851111120986/717790046819975220)\n<#717759851111120986>\n<#710446861567393803>",
 					"inline": true
 				},
 				{
-					"name": "Team 7",
-					"value": "Puddel\n<#710446963425935430>",
-					"inline": true
-				},
-				{
-					"name": "Team 12",
-					"value": "Archie The Archer\n<#710447332021239868>",
-					"inline": true
-				},
-				{
-					"name": "\u200b",
-					"value": "\u200b",
-					"inline": true
-				},
-				{
-					"name": "\u200b",
-					"value": "\u200b",
+					"name": "[3:7] Rainy Day Studios",
+					"value": "[Puddel](https://discordapp.com/channels/694612386744631306/710446963425935430/718176734083809351)\n<#710446963425935430>",
 					"inline": true
 				}
 			]
