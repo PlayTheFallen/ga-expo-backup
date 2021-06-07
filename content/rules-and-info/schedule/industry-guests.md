@@ -1,45 +1,73 @@
 > **Industry Guests**
 ```bash
-Aardvark_Swift() {
-  "Andy Driver"
-  "Rebecca Wright"
-  "Tom" }
+Troy_Baker() {
+  $Voice_Actor / $Musician
+  # Known for
+  "Joel Miller in The Last of Us"
+  "Booker DeWitt in BioShock Infinite"
+  "The Joker in Batman Arkham Origins" }
 
-Alumni() {
-  "Kasandra Standal" }
+Andy_Payne_OBE() {
+  $Chair         @ "British Esports Association"
+  $Board_advisor @ "Bossa Studios"
+  $Founder       @ "GamesAid" }
 
-Bithell_Games() { 
-  "Mike Bithell" }
+Melissa_Phillips() {
+  $Head_of_Studio @ "Silver Rain Games" }
 
-Bossa_Studios() {
-  "Imre Jele" }
+Nigel_Twumasi() {
+  $Co_founder @ "Mayamada" }
 
-CUBA_Entertainment (){
-  "David Clark" }
+Nick_Button_Brown() {
+  "Edios" -> "EA"
+  "Crytek" & "Improbable" }
 
-Film_Concept_Artist() {
-  "Bob Cheshire" }
+Mark_Morris() {
+  $Founder / $Talent @ "Supernova" }
 
-Google_Stadia() {
-  "Careen Yapp" }
+Imre_Jele() {
+  $Co_founder @ "Bossa Studios" }
 
-Indie_Champions() {
-  "Colin Macdonald" }
+Mark_Brown() {
+  "Game Maker Toolkit",
 
-MediaTonic() {
-  "Alexander Raphelt"
-  "Jeff Tanton"
-  "Tork Shaw"
-  "Oliver Hindle"
-  "Haley Uyrus" }
+  $previously
+  "GamesRadar",
+  "Wired",
+  "The Escapist" }
 
-Moonshine_Studios() {
-  "Marcus Gardner" }
+Alex_Boucher() {
+  $Founder @ "Game Dev Heroes" }
 
-Polygraph() {
-  "Johanne Bergill" }
+Captain_Falcore() {
+  $Content_Creator @ "YouTube", "Twitch"
+  $Partner @ "Sea of Thieves" / "Rare" }
 
-Triangular_Pixels() {
-  "Katie Goode" }
+Griffin_Warner() {
+  $Animator @ "Silver Rain Games"
+  
+  $previously
+  "Sumo Digital" }
+
+# Grads in Games
+Andy_Driver() {
+  $Operations_Manager }
+
+Dan_Dudley() {
+  $Community_Manager }
+
+# Alumni
+
+Ross_Everson() {
+  $Junior_Animator @ "Firesprite"
+
+  $previously
+  $Co_founder @ "Liquid Sapling"
+  $Co_founder @ "Polagryph" }
+
+Oscar_Værnø() {
+  $Junior_Development_Manager @ "Firesprite"
+  
+  $previously
+  $Co_founder @ "Polagryph" }
 ```
-We’re really proud to also be inviting back some of our past students for the Alumni Panel, including members who have publisher funded indie games content, as well as Transfuzer awarded published content. This includes Moonshine who just released a game on Stadia.

@@ -1,12 +1,11 @@
 > **Fireside Chats with Q&A:**
 ```md
-<Time         | Industry Guest  =       'Representing'>
-<------------ | --------------- = '------------------'>
-<10am-to-11am | Mike Bithell    =      'Bithell Games'>
-<11am-to-12pm | Katie Goode     =  'Triangular Pixels'>
-<12pm-to-1pm  | Colin Macdonald =    'Indie Champions'>
-<1pm-to-2pm   | Bob Cheshire    =     'Concept Artist'>
-<2pm-to-3pm   | Dave Clark      = 'CUBA Entertainment'>
-<3pm-to-4pm   | Imre Jele       =      'Bossa Studios'>
-<4pm-to-5pm   | Careen Yapp     =      'Industry Exec'>
+<Guest              | Time          >
+<Andy Payne OBE     | 10am = 11am   >
+<Melissa Phillips   | 11am = 12pm   >
+
+<Nigel Twumasi      |  1pm = 2pm    >
+<Nick Button-Button |  2pm = 3pm    >
+<Mark Morris        |  3pm = 4pm    >
+<Troy Baker         |  4pm = 5:30pm >
 ```

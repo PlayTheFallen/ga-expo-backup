@@ -1,6 +1,6 @@
 /* eslint-disable guard-for-in */
 /* eslint-disable no-restricted-syntax */
-const fs = require('fs/promises');
+const fs = require('fs-extra');
 const path = require('path');
 
 const {
@@ -8,6 +8,8 @@ const {
 	MessageEmbed,
 	Util: { mergeDefault, resolveColor },
 } = require('discord.js');
+const fetch = require('node-fetch');
+const nunjucks = require('nunjucks');
 const { GlobSync } = require('glob');
 const yaml = require('js-yaml');
 
@@ -28,10 +30,11 @@ const webhook = new WebhookClient(config.webhook.id, config.webhook.token, {
  * @returns {Promise<void>}
  */
 const sleep = (time = 1000) => new Promise((resolve) => {
-	setTimeout(() => resolve());
-}, time);
+	setTimeout(() => resolve(), time);
+});
 
-const sendPayload = (payload) => webhook.send(mergeDefault(config.defaultPayload, payload));
+const sendPayload = async (payload) => webhook.send(mergeDefault(config.defaultPayload, payload));
+// todo, comparison match / edit functionality - blocked, method doesn't exist yet
 
 const log = (prefix, message) => console.log(`[${prefix.toUpperCase()}] ${message}`);
 
@@ -50,6 +53,20 @@ async function getFile(filePath) {
 
 const run = async () => {
 	log('init', 'Begin process');
+	const webhookObject = await fetch(`https://discord.com/api/v9/webhooks/${config.webhook.id}/${config.webhook.token}`).then((res) => res.json());
+
+	await fs.ensureFile('./cache.json');
+	const cache = await fs.readJSON('./cache.json');
+
+	if (!cache[webhookObject.id]) cache[webhookObject.id] = [];
+
+	for (const key of cache[webhookObject.id]) {
+		await fetch(`https://discord.com/api/webhooks/${config.webhook.id}/${config.webhook.token}/messages/${key}`, { method: 'DELETE' });
+		await sleep(1100);
+	}
+
+	await sleep(5000);
+
 	const files = [];
 	const messages = [];
 
@@ -58,7 +75,10 @@ const run = async () => {
 
 		switch (file.type) {
 			case 'glob':
-				files.push(...new GlobSync(file.glob).found);
+				// eslint-disable-next-line no-case-declarations
+				const glob = new GlobSync(file.glob).found;
+				if (file.reverse) glob.reverse();
+				files.push(...glob);
 				break;
 			case 'foreign': // ?? must return an absolute path to a file
 				break; // TODO: network request?
@@ -103,11 +123,18 @@ const run = async () => {
 				break;
 			}
 
-			case '.njk':
-			default: {
-				log('warn', 'Skipping file');
-				continue;
+			case '.njk': {
+				// currently only made for yaml, planned to expand to other hooks / likely event hooks
+				payload = yaml.load(await new Promise((resolve, reject) => {
+					nunjucks.renderString(content.toString('utf8'), { webhook: webhookObject, messages }, (err, res) => {
+						if (err) reject(err);
+						resolve(res);
+					});
+				}));
+				break;
 			}
+			default:
+				log('SCAN', `Unknown file type: ${info.ext} on ${filePath}`);
 		}
 
 		if (config.authors && config.authors[payload.username]) {
@@ -134,7 +161,7 @@ const run = async () => {
 
 		log(`sent/${index}`, `Sent content for ${files[index]}`);
 
-		await sleep(2000);
+		await sleep(1100);
 		index++;
 	}
 
@@ -143,7 +170,7 @@ const run = async () => {
 		const updatePayload = mergeDefault({
 			embeds: [
 				{
-					description: 'This channel has been backed up using [TinkerStorm/discord-channel-backup](https://github.com/TinkerStorm/discord-channel-backup).',
+					description: 'This channel has been backed up using a modified version of [TinkerStorm/channel-backup-node](https://github.com/TinkerStorm/channel-backup-node).',
 					color: resolveColor('#7289DA'),
 					timestamp: stamp,
 				},
@@ -154,9 +181,14 @@ const run = async () => {
 			updatePayload.avatarURL = config.authors[updatePayload.username];
 		}
 
-		await sendPayload(updatePayload);
+		messages.push(await sendPayload(updatePayload));
 		log('*', 'Sent content for update embed.');
 	}
+
+	log('POST-RUN', 'Attempting to export message cache');
+
+	cache[webhookObject.id] = messages.map((m) => m.id);
+	await fs.writeJSON('./cache.json', cache);
 };
 
 run().then(() => {

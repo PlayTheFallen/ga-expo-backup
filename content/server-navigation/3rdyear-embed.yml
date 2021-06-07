@@ -1,0 +1,95 @@
+embeds:
+  - title: 3rd Year (12 Teams)
+    color: 30935
+    fields:
+    - name: Ludophoria <:Ludophoria:850013645836779551> # 3:1
+      value: |
+        [Infinite Bounty <:InfiniteBounty:850013646729117726>](https://discord.com/channels/694612386744631306/849636923668693002/849732044845744138)
+        <#849636923668693002>
+        <#849636993130168321>
+        <#849636993130168321>
+        <:LudophoriaScream:850013647584755742> <:LudophoriaIB:850013646058422282> <:LudophoriaHandsome:850013647459450880> <:LudophoriaBucks:850013645970079824>
+      inline: true
+
+    - name: Dapper Dog # 3:2
+      value: |
+        [SPYDER](https://discord.com/channels/694612386744631306/849406392879546368/849621494723117056)
+        <#849406392879546368>
+        <#796077897207119893>
+        <:SpyderBismoth:850072972801867817>
+      inline: true
+
+    - name: Slime Crime <:SlimeCrime:850010598770999376> # 3:3
+      value: |
+        [Slime Café <:SlimeCafe:850010599567261736>](https://discord.com/channels/694612386744631306/797121486246772768/849305309645766666)
+        <#797121486246772768>
+        <#849308965178572882>
+        <:SlimeCrime_Boblin:850012343123705886>
+      inline: true
+    
+    - name: The Doghouse <:TheDoghouse:850053539471556688> # 3:4
+      value: |
+        [Bosh Battles <:BoshBattles:850061615004909569>](https://discord.com/channels/694612386744631306/796077072501178368/849969181708255262)
+        <#796077072501178368>
+        <#849973252709285908>
+        <:BoshBattlesOrc:850061614760722472><:BoshBattlesKnight:850053540189438053><:BoshBattlesElf:850061615890300981> <:BoshBattlesDwarf:850073951828836373>
+      inline: true
+    
+    - name: Meteorite Media <:MeteoriteMedia:850008340947402822> # 3:5
+      value: |
+        [Kaya's Vale <:KayasVale:850008339806158878>](https://discord.com/channels/694612386744631306/849310104402788352/849316486529941525)
+        <#849310104402788352>
+        <#849983381604401152>
+        <#796078319681536070>
+        <:KayasVale_Kaya:850008340855390268> <:KayasVale_Apollo:850008340188626987>
+      inline: true
+
+    - name: TableTop Digital <:TableTopDigital:850053538855125052> # 3:6
+      value: |
+        [Delve <:Delve:850053538352070686>](https://discord.com/channels/694612386744631306/849633387534745610/849634408072085524)
+        <#849633387534745610>
+        <#796078561114062859>
+        <:DelveMerc:850053538502803506> <:DelveKnight:850053538457321483> <:DelveJester:850053538445131786> <:DelveDuellist:850053538540421130> 
+      inline: true
+
+    - name: Space Age Studios
+      value: |
+        [The Collapse](https://discord.com/channels/694612386744631306/850309538581708831/850311403050500096)
+        <#850309538581708831>
+        <#850309537780072468>
+      inline: true
+    
+    - name: Beard Forge <:BeardForge:850053538548940821> # 3:8
+      value: |
+        [Forgery!](https://discord.com/channels/694612386744631306/797123218527223909/849307046432342076)
+        <#797123218527223909>
+        <#849598639616557106>
+        <:ForgeryFire:850053538498215946> <:ForgeryDwarf:850053538679881740> <:ForgeryAnvil:850053538612903966>
+      inline: true
+    
+    - name: Pneumatic Productions # 3:9
+      value: |
+        [Lunerita](https://discord.com/channels/694612386744631306/797123696044408863/849304743037108284)
+        <#797123696044408863>
+      inline: true
+
+    - name: Wrong World Studios # 3:10
+      value: |
+        [Cycle](https://discord.com/channels/694612386744631306/849996982897606684/850048120892293121)
+        <#849996982897606684>
+        <#850064050489393164>
+        <#849996981840642049>
+      inline: true
+    
+    - name: Puddle o' Tigers # 3:12
+      value: |
+        [Nagamaki Grind](https://discord.com/channels/694612386744631306/797124078003421184/849883194320355378)
+        <#797124078003421184>
+      inline: true
+    
+    - name: Ben & Hollie <:BenAndHollie:849974323724419082> # 3:17
+      value: |
+        [Pedranda](https://discord.com/channels/694612386744631306/797124742339231785/849965228175261696)
+        <#797124742339231785>
+        <#849614901479866398>
+      inline: true

@@ -1,0 +1,42 @@
+embeds: 
+  - title: 1st Year (5 teams)
+    color: 1492492
+    fields:
+    - name: Birdbrains # 1:1
+      value: |
+        [A Woman's Duty](https://discord.com/channels/694612386744631306/849311853243138078/849314931731464232)
+        <#849311853243138078>
+        <#796076501954723920>
+      inline: true
+
+    - name: Team Depressed Bandicoot <:TeamDepressedBandicoot:849974322524586036> # 1:2
+      value: |
+        [Daedalus](https://discord.com/channels/694612386744631306/849356918673244160/849407879525957663)
+        <#849356918673244160>
+        <#796076367350857819>
+      inline: true
+
+    - name: "Keystone Games" # 1:4
+      value: |
+        [Tower of Pertho](https://discord.com/channels/694612386744631306/849316952727486484/849318844980133909)
+        <#849316952727486484>
+        <#718402593918812261>
+      inline: true
+      
+    - name: Another Dollar Studios <:AnotherDollarStudios:850000322130214953> # 1:14
+      value: |
+        [Another Day <:AnotherDay:850000321915650048>](https://discord.com/channels/694612386744631306/796072379473330217/849305550667120650)
+        <#796072379473330217>
+        <#849416520660549652>
+      inline: true
+
+    - name: ​ # u200b
+      value: ​ # u200b
+      inline: true
+
+    - name: Mortimer Ferous
+      value: |
+        [Overslept](https://discord.com/channels/694612386744631306/850278290349883432/850280129938718731)
+        <#850278290349883432>
+        <#850278289405640734>
+      inline: true

@@ -1,0 +1,86 @@
+embeds: 
+  - title: 2nd Year (10 Teams)
+    color: 8940772
+    fields:
+      - name: Leaf Sheep Studios <:LeafSheep:850299062476341268> # 2:1
+        value: |
+          [Paralight](https://discord.com/channels/694612386744631306/849568904803516416/850259750502531122)
+          <#849568904803516416>
+          <#850258162585829457>
+          <#796073219965714472>
+          <:ParalightAriJabba:850305347508109353>
+        inline: true
+
+      - name: Lobster Squad <:LobsterSquad:850053539555835955> # 2:2
+        value: |
+          [Ascent](https://discord.com/channels/694612386744631306/849311601714003999/849974543728377906)
+          <#849311601714003999>
+          <#849309245622452234>
+          <:AscentAngryToad:850079571495485511>
+        inline: true
+
+      - name: Leaf Eater <:LeafEater:850112612229709856> # 2:3
+        value: |
+          [Culinary Coalition <:CulinaryCoalition:850112612293410836>](https://discord.com/channels/694612386744631306/849314284008767488/849315440999661578)
+          <#849314284008767488>
+          <#798299361942568960>
+        inline: true
+
+      - name: RedGiant Games # 2:5
+        value: |
+          [Red Pluto](https://discord.com/channels/694612386744631306/849386582138159104/849565315108438016)
+          <#849386582138159104>
+          <#796079614140219444>
+        inline: true
+
+      - name: Glass Nomad Games <:GlassNomadGames:849988960424034304> # 2:6
+        value: |
+          [Carma <:Carma:849988959971180566>](https://discord.com/channels/694612386744631306/849602201855721492/849603098800160808)
+          <#849602201855721492>
+          <#849601445623889920>
+        inline: true
+      
+      - name: Low-Poly Platypus <:LowPolyPlatypus:850053539077947452> #2:7
+        value: | 
+          [Legal Tender](https://discord.com/channels/694612386744631306/849308598139355146/850019286185803827)
+          <#849308598139355146>
+          <#796081867627298847>
+          <:LegalTenderQuacktain:850053540029399080> <:LegalTenderKacie:850053539954032680> <:LegalTenderDinah:850057155377627137> <:LegalTenderBat:850053539467100251>
+        inline: true
+
+      - name: 10 Owls # 2:8
+        value: |
+          [Umbrian](https://discord.com/channels/694612386744631306/849307754581721110/849309641628188682)
+          <#849307754581721110>
+          <#849310786329641060>
+          <#849319810583232513>
+        inline: true
+
+      - name: Part-time Bacon Force
+        value: |
+          [Twin Flames](https://discord.com/channels/694612386744631306/850284866675146822/850285117707911178)
+          <#850284866675146822>
+          <#850284865768128522>
+        inline: true
+        
+      - name: Tadpole Games <:TadpoleGames:850002121615999066> # 2:10
+        value: |
+          [Hyakorsk](https://discord.com/channels/694612386744631306/849996035362521098/850082167161749544)
+          <#849996035362521098>
+          <#849996125158506567>
+          <#849313828163682364>
+        inline: true
+
+      - name: ​ # u200b
+        value: ​ # u200b
+        inline: true
+
+      - name: Lightning Sharks # 2:14
+        value: |
+          [Teino](https://discord.com/channels/694612386744631306/796835625965322331/850081998009794591)
+          <#796835625965322331>
+        inline: true
+
+      - name: ​ # u200b
+        value: ​ # u200b
+        inline: true

@@ -1,0 +1,9 @@
+embeds:
+  - title: Personal projects
+    color: 0xFFFFFE
+    fields:
+      - name: Mortem Labori by Ryan Mints
+        value: |
+          [Jump to message](https://discord.com/channels/694612386744631306/849318215628750888/849319263151194163)
+          <#849318215628750888>
+        inline: true

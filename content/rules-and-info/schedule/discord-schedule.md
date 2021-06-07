@@ -2,32 +2,30 @@
 
 **Channel 1**
 ```md
-<Time         | Guest                    >
-<------------ | ------------------------->
-<10am-to-11am | Imre Jele                >
-<11am-to-12pm | Jeff Tanton and Tork Shaw>
-<12pm-to-1pm  | Alumni Panel             >
-<1pm-to-2pm   | Katie Goode               >
-<2pm-to-3pm   | Oliver Hindle            >
-<3pm-to-4pm   | Bob Cheshire             >
-<4pm-to-5pm   | Alumni Panel             >
+<Guest               | Time        >
+<___________________ | ____ = ____ >
+<Nick Button-Brown   | 10am = 11am >
+<Mark Morris         | 11am = 12pm >
+<Mark Brown = "GMTK" | 12pm =  1pm >
+<Andy Payne          |  1pm =  2pm >
+<Griffin Warner      |  2pm =  3pm >
+<Alex Boucher        |  3pm =  4pm >
 ```
 **Channel 2**
 ```md
-<Time         | Guest                    >
-<------------ | ------------------------->
-<10am-to-11am | Alex R                   >
-<11am-to-12pm | Alex R                   >
-<12pm-to-1pm  | David Clark              >
-<1pm-to-2pm   |                          >
-<2pm-to-3pm   | Jeff Tanton and Tork Shaw>
-<3pm-to-4pm   | Colin Macdonald          >
-<4pm-to-5pm   | Haley Uyrus              >
+<Guest               | Time        >
+<___________________ | ____ = ____ >
+<Grads in Games      | 10am = 12am >
+<Nigel Twumasi       | 12pm =  1pm >
+
+<Grads in Games      |  2pm =  4pm >
 ```
-**Aardvark Swift Channels**
+**Channel 3**
 ```md
-<Time        >
-<------------>
-<11am-to-12pm>
-<2pm-to-3pm  >
+<Guest               | Time        >
+<___________________ | ____ = ____ >
+<Waving Bear         | 10am = 11am >
+<Ross Everson        | 11am = 12pm >
+
+<Oscar Værnø         |  1pm =  2pm >
 ```
